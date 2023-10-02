@@ -37,7 +37,7 @@ class App extends StatelessWidget {
           return AdaptiveTheme(
             light: AppTheme.light,
             dark: AppTheme.dark,
-            initial: AdaptiveThemeMode.light,
+            initial: AdaptiveThemeMode.system,
             builder: (ThemeData theme, ThemeData darkTheme) => GetMaterialApp.router(
               debugShowCheckedModeBanner: false,
               localizationsDelegates: const <LocalizationsDelegate<dynamic>>[
